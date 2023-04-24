@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Libre Forum</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/spritesheet.min.css">
+</head>
+<html>
+    <body class="body">
+        <nav>
+            <a class="libre sm" href="/">
+                <h2>LIBRE</h2>
+                <h2>LIBRE</h2>
+            </a>
+            <div>
+                <a class="link" href="/">My Feed</a>
+                <a class="link" href="/all">All</a>
+                <a class="link" href="/discover">Communities</a>
+                <a class="link" href="/chat">Chatrooms</a>
+                <!--a.link-nav.mx-2 Quiz-->
+            </div>
+            <div>
+                <form class="text-input flex my-1" action="/search" method="get">
+                    <input class="search-input" name="q" type="search" placeholder="Search..." minlength="3" maxlength="100">
+                    <select class="bg-transparent text-zinc-500 text-input text-xs border-0 w-24 underline" name="t" required="">
+                        <option value="p">Posts</option>
+                        <option value="c">Comments</option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <a class="link block" href="/u/username">username</a>
+                <div class="space-x-2">
+                    <a class="link" href="/notifications">
+                        <div class="icon notifications"></div>
+                    </a>
+                    <a class="link" href="/inbox">
+                        <div class="icon messages"></div>
+                    </a>
+                    <a class="link" href="/settings">
+                        <div class="icon settings"></div>
+                    </a>
+                    <a class="link" href="/about">
+                        <div class="icon donate"></div>
+                    </a>
+                    <a class="link" href="/inbox/modmail">
+                        <div class="icon shield"></div>
+                    </a>
+                    <a class="link" href="/auth/signout">
+                        <div class="icon logout"></div>
+                    </a>
+                </div>
+                <div class="space-x-2 text-zinc-400">
+                    <span>Recv:0</span>
+                    <span>Gifts:13</span>
+                </div>
+            </div>
+        </nav>
+        <div class="flex-grow">
+            <div class="panel-xl">
+                <div class="title px-2">
+                    <div></div>
+                    <div>
+                        <h1>Chatrooms</h1>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="space-x-2 mt-2">
+                    <a class="selection selected" href="/chat">Public</a>
+                    <a class="selection" href="/chat?type=private">Private</a>
+                </div>
+                <div class="grid-2 mt-4">
+                    <a class="text-justify box p-4" href="/chat/room/5d089692">
+                        <p class="text-xl font-bold">General Chat</p>
+                        <p class="mt-2">Host: pharoah curlydock burian</p>
+                        <p>Created: 2023-01-05 06:41:14 GMT</p>
+                    </a>
+                    <a class="text-justify box p-4" href="/chat/room/5ea49052">
+                        <p class="text-xl font-bold">CozyJazz</p>
+                        <p class="mt-2">Host: CurlyDock</p>
+                        <p>Created: 2023-03-03 13:30:03 GMT</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <a class="link-dark" href="/faq">FAQ</a>
+                <a class="link-dark" href="/rules">Rules</a>
+                <a class="link-dark" href="/levels">Levels</a>
+                <a class="link-dark" href="/bbcode">BBCode</a>
+                <a class="link-dark" href="/pgp.txt" target="_blank">PGP Key</a>
+                <a class="link-dark" href="/canary.txt" target="_blank">Canary</a>
+                <a class="link-dark" href="/mirrors.txt" target="_blank">Mirrors</a>
+            </div>
+            <hr class="mt-2 border-zinc-700">
+            <p>
+                Brought to you with love by<a class="link-dark ml-1" href="https://incognite.com" target="_blank">Incognite Team</a>
+            </p>
+        </footer>
+    </body>
+</html>
